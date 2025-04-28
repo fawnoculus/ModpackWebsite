@@ -70,26 +70,26 @@
 .Buttons {
     max-width: fit-content;
     margin-left: auto;
-    margin-right: 2%;
+    margin-right: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .DisabledButton {
-    font-size: 15px;
-    height: 30px;
-    width: 135px;
-    border-radius: 8px;
-    border-style: none;
-    background-color: #afafaf;
-    color: black;
+  font-size: 25px;
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #afafaf;
+  color: black;
 }
 .DisabledButton:hover {
-    cursor: not-allowed;
+  cursor: not-allowed;
 }
 .CurseforgeButton {
-    font-size: 15px;
-    height: 30px;
-    width: 135px;
+    font-size: 25px;
+    height: 40px;
+    width: 150px;
     border-radius: 10px;
     border-style: none;
     background-color: #eb622b;
@@ -101,9 +101,9 @@
     border-color: black;
 }
 .ModrinthButton {
-    font-size: 16px;
-    height: 30px;
-    width: 135px;
+  font-size: 25px;
+  height: 40px;
+    width: 150px;
     border-radius: 8px;
     border-style: none;
     background-color: #1bd96a;
