@@ -1,0 +1,53 @@
+.navMenu a.current {
+    background-color: rgba(44, 156, 44, 0.75);
+}
+.navMenu a.current:hover {
+    background-color: rgba(31, 112, 31, 0.75);
+}
+
+canvas {
+    width: 100%;
+    height: 600px;
+}
+.Flex {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.UpdateCanvas {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(145, 46, 226);
+}
+.inputs {
+    margin-top: -10px;
+    margin-right: 0px;
+    margin-left: auto;
+    width: 250px;
+}
+.input {
+    resize: none;
+    width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(193, 118, 255);
+    color: black;
+}
+.input_invalid {
+    resize: none;
+    width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(255, 124, 124);
+    color: black;
+}
+.inputName {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}

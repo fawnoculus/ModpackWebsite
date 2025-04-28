@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mät Web|Entertainment</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../../universial.css" />
+    <link rel="stylesheet" href="./extra.css" />
+  </head>
+  <body class="dunkel">
+    <div class="navMenu" id="navMenu">
+      <a class="navButton" href="javascript:void(0);" onclick="showNavItems()"><i class="fa fa-bars"></i></a>
+      <a class="darkmodeButton" href="javascript:void(0);" onclick="darkModeToggle()"
+        ><i class="fa-solid fa-circle-half-stroke"></i
+      ></a>
+      <p class="background"></p>
+      <a class="notcurrent" href="../../home/index.html">Home</a>
+      <a class="current" href="../../entertainment/index.html">Entertainment</a>
+      <a class="notcurrent" href="../../modpacks/index.html">Modpacks</a>
+      <a class="notcurrent" href="../../serverinfo/index.html">Serverinfo</a>
+    </div>
+
+    <br />
+    <div class="Flex">
+      <div>
+        <h3>Die Flüssigkeit wird mit <a href="https://github.com/malik-tillman/Fluid-JS">Fluid-JS</a> simuliert</h3>
+        <p>
+          Einfach Mauszeiger über den Bereich ziehen und linke Maustaste halten <br />
+          (Funktioniert nur mit einer Maus)
+        </p>
+      </div>
+      <div class="inputs" hidden>
+        <p class="inputName">Breite in pixeln</p>
+        <textarea name="width" class="input" id="widthInput"></textarea>
+        <p class="inputName">Höhe in pixeln</p>
+        <textarea name="hight" class="input" id="hightInput"></textarea>
+        <button class="UpdateCanvas" onclick="updateCanvas()">Höhe & Breite ändern</button>
+      </div>
+    </div>
+    <canvas id="renderSurface"></canvas>
+  </body>
+  <script src="../../universial.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fluid-canvas@latest"></script>
+  <script src="./extra.js"></script>
+</html>

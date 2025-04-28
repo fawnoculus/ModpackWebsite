@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mät Web|ServerInfo</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../universial.css" />
+    <link rel="stylesheet" href="./extra.css" />
+  </head>
+  <body class="dunkel">
+    <div class="navMenu" id="navMenu">
+      <a class="navButton" href="javascript:void(0);" onclick="showNavItems()"><i class="fa fa-bars"></i></a>
+      <a class="darkmodeButton" href="javascript:void(0);" onclick="darkModeToggle()"><i class="fa-solid fa-circle-half-stroke"></i></a>
+      <p class="background"></p>
+      <a class="notcurrent" href="../home/index.html">Home</a>
+      <a class="notcurrent" href="../entertainment/index.html">Entertainment</a>
+      <a class="notcurrent" href="../modpacks/index.html">Modpacks</a>
+      <a class="current" href="../serverinfo/index.html">Serverinfo</a>
+    </div>
+
+    <h1 class="center">ServerInfo</h1>
+    <div class="Flex">
+      <div class="Server">
+        <h3 class="ServerName">TMät's Krasser Server</h3>
+        <h3
+          class="ServerAdress"
+          onclick="navigator.clipboard.writeText('138.201.120.172:25437'); alert('Server Adresse wurde Koppiert')"
+        >
+          138.201.120.172:25437
+        </h3>
+        <div class="Seperator"></div>
+        <h4 class="ServerDescription">Momentanter Hauptserver von einer gruppe voller merkwürdigen menschen</h4>
+        <div class="Seperator"></div>
+        <div class="Servermodpack">
+          <h5 class="ServermodpackName">Sylenium v2.2</h5>
+          <div class="Buttons">
+            <a href="../assets/files/modpacks/curseforge/sylenium-v2.2.html"><button class="CurseforgeButton">Curseforge</button></a>
+            <a href="../assets/files/modpacks/modrinth/sylenium-v2.2.html"><button class="ModrinthButton">Modrinth</button></a>
+          </div>
+        </div>
+      </div>
+    <!--
+
+      <div class="Server">
+        <h3 class="ServerName">Der andere Server</h3>
+        <h3
+          class="ServerAdress"
+          onclick="navigator.clipboard.writeText('cgb382opem3lgvmc.myfritz.net:43721'); alert('Server Adresse wurde Koppiert')"
+        >
+          cgb382opem3lgvmc.myfritz.net:43721
+        </h3>
+        <div class="Seperator"></div>
+        <h4 class="ServerDescription">Server macht momentan nichts & ist offline</h4>
+        <div class="Seperator"></div>
+        <div class="Servermodpack">
+          <h5 class="ServermodpackName">Kein Modpack</h5>
+          <div class="Buttons">
+            <a href="../assets/img/lego.png"><button disabled class="DisabledButton">Curseforge</button></a>
+            <a href="../assets/img/lego.png"><button disabled class="DisabledButton">Modrinth</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    -->
+  </body>
+  <script src="../universial.js"></script>
+  <script src="./extra.js"></script>
+</html>

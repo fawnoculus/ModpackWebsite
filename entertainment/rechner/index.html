@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mät Web|Entertainment</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../../universial.css" />
+    <link rel="stylesheet" href="./extra.css" />
+  </head>
+  <body class="dunkel">
+    <div class="navMenu" id="navMenu">
+      <a class="navButton" href="javascript:void(0);" onclick="showNavItems()"><i class="fa fa-bars"></i></a>
+      <a class="darkmodeButton" href="javascript:void(0);" onclick="darkModeToggle()"
+        ><i class="fa-solid fa-circle-half-stroke"></i
+      ></a>
+      <p class="background"></p>
+      <a class="notcurrent" href="../../home/index.html">Home</a>
+      <a class="current" href="../../entertainment/index.html">Entertainment</a>
+      <a class="notcurrent" href="../../modpacks/index.html">Modpacks</a>
+      <a class="notcurrent" href="../../serverinfo/index.html">Serverinfo</a>
+    </div>
+
+    <h3>Krasser JavaScript Rechner</h3>
+    <p>Rechnung hier eingeben</p>
+    <textarea id="Rechner" onkeyup="calculate()"></textarea>
+    <br /><br /><br />
+    <p>Ergebniss</p>
+    <textarea id="Output" readonly></textarea>
+  </body>
+
+  <script src="../../universial.js"></script>
+  <script src="./extra.js"></script>
+</html>

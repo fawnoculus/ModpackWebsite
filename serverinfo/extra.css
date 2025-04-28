@@ -1,0 +1,115 @@
+.Flex {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    white-space: nowrap;
+}
+.Server {
+    white-space: wrap;
+    width: 750px;
+    flex-grow: 1;
+    background-color: rgb(49, 49, 49);
+    border: 2px solid rgb(37, 52, 209);
+    border-radius: 10px
+}
+.Seperator {
+    height: 2px;
+    background-color: rgb(37, 52, 209);
+}
+.ServerName {
+    color: white;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.ServerAdress {
+    text-align: center;
+    color: white;
+    max-width: fit-content;
+    margin-top: -24px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    height: 20px;
+    user-select: none;
+}
+.ServerAdress:hover {
+    cursor: copy;
+    color: cyan;
+}
+.ServerDescription {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: fit-content;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.Servermodpack {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.ServermodpackName {
+    color: white;
+    font-size: 30px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.Buttons {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.DisabledButton {
+    font-size: 15px;
+    height: 30px;
+    width: 135px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #afafaf;
+    color: black;
+}
+.DisabledButton:hover {
+    cursor: not-allowed;
+}
+.CurseforgeButton {
+    font-size: 15px;
+    height: 30px;
+    width: 135px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #eb622b;
+    color: black;
+}
+.CurseforgeButton:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+}
+.ModrinthButton {
+    font-size: 16px;
+    height: 30px;
+    width: 135px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #1bd96a;
+    color: black;
+}
+.ModrinthButton:hover {
+    cursor: pointer;
+    border: black solid 2px;
+}
