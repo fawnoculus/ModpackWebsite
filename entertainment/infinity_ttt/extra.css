@@ -1,0 +1,34 @@
+.navMenu a.current {
+  background-color: rgba(44, 156, 44, 0.75);
+}
+.navMenu a.current:hover {
+  background-color: rgba(31, 112, 31, 0.75);
+}
+
+.downloads{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.download_button{
+  align-self: center;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.download_button#windows{
+  background-color: rgba(41, 134, 172, 0.75);
+}
+.download_button#android{
+  background-color: rgba(117, 165, 44, 0.829);
+}
+.download_button#linux{
+  background-color: rgb(185, 150, 72);
+}
+.download_icon{
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+}
