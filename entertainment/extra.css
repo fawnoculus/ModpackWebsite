@@ -1,0 +1,30 @@
+.games{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.game{
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 250px;
+    height: 325px;
+}
+.game p{
+    text-align: center;
+    align-content: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 60px;
+}
+.seperator{
+    height: 2px;
+    background-color: black;
+}
+.logo{
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+}
